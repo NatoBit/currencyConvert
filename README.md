@@ -21,21 +21,20 @@ This Java application allows users to retrieve and calculate currency exchange r
 1. **Clone this repository**:  
    ```bash
    git clone https://github.com/NatoBit/currencyConvert
-   cd currency-exchange-app  
 
 2. **Install Dependencies**:
 
-Make sure you have Gson included in your project. If you're using Maven, add the following dependency to your pom.xml:
+    Make sure you have Gson included in your project. If you're using Maven, add the following dependency to your pom.xml:
 
-```xml
-<dependency>  
-    <groupId>com.google.code.gson</groupId>  
-    <artifactId>gson</artifactId>  
-    <version>2.8.9</version>  
-</dependency>  
+    ```xml
+    <dependency>  
+        <groupId>com.google.code.gson</groupId>  
+        <artifactId>gson</artifactId>  
+        <version>2.8.9</version>  
+    </dependency>  
 
 3. **Obtain API Key**:
-Go to https://app.exchangerate-api.com/ and sign up to get your API key. In the MakeQuery class, set the key variable as follows:
+    Go to https://app.exchangerate-api.com/ and sign up to get your API key. In the MakeQuery class, set the key variable as follows:
 
-```java
-String key = "YOUR_API_KEY_HERE";      
+    ```java
+    String key = "YOUR_API_KEY_HERE";      
